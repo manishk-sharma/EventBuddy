@@ -39,6 +39,13 @@ export default function Navbar() {
               <span className={styles.favBadge}>{favorites.length}</span>
             )}
           </Link>
+          <Link
+            href="/login"
+            className={`${styles.navLink} ${pathname === "/login" ? styles.navLinkActive : ""} ${styles.loginBtn}`}
+            id="nav-login"
+          >
+            <span>Login</span>
+          </Link>
         </div>
       </div>
     </nav>

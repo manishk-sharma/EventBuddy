@@ -112,3 +112,24 @@
   0%, 100% { opacity: 1; }
   50% { opacity: 0.6; }
 }
+
+.loginBtn {
+  background: var(--accent-violet) !important;
+  color: white !important;
+  padding: 8px 18px !important;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  transition: all var(--duration-fast);
+  box-shadow: 0 4px 12px rgba(168, 85, 247, 0.2);
+  margin-left: 8px;
+}
+
+.loginBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(168, 85, 247, 0.3);
+  background: #9333ea !important;
+}
+
+.loginBtn span {
+  color: white;
+}

@@ -60,10 +60,14 @@ export default function PlaceCard({ place, index }) {
       {/* Image Area */}
       <div className={styles.imageWrap}>
         <img
-          src={categoryImage[place.category] || "/images/cafe.png"}
+          src={place.image || categoryImage[place.category] || "/images/cafe.png"}
           alt={place.name}
           className={styles.cardImage}
           loading="lazy"
+          onError={(e) => {
+            e.target.src = categoryImage[place.category] || "/images/cafe.png";
+            e.target.onerror = null; // Prevent infinite loop
+          }}
         />
         <div className={styles.imageOverlay} />
 

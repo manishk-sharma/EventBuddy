@@ -5,11 +5,18 @@
     "category": "Meetups",
     "location": "Delhi",
     "area": "Connaught Place",
-    "interests": ["Tech", "Coworking"],
-    "vibe": ["Geeky", "Networking", "Chill"],
+    "interests": [
+      "Tech",
+      "Coworking"
+    ],
+    "vibe": [
+      "Geeky",
+      "Networking",
+      "Chill"
+    ],
     "rating": 4.7,
     "price": 0,
-    "image": "/images/meetup1.jpg",
+    "image": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=800",
     "description": "Weekly gathering of developers, designers and startup enthusiasts. Bring your laptop, grab a coffee, and build something cool together. Lightning talks every Friday!",
     "timings": "Every Friday, 6:00 PM – 9:00 PM",
     "mapLink": "https://maps.google.com/?q=Connaught+Place+Delhi",
@@ -24,11 +31,19 @@
     "category": "Cafes",
     "location": "Delhi",
     "area": "Champa Gali, Saket",
-    "interests": ["Cafes", "Books", "Photography"],
-    "vibe": ["Aesthetic", "Cozy", "Artsy"],
+    "interests": [
+      "Cafes",
+      "Books",
+      "Photography"
+    ],
+    "vibe": [
+      "Aesthetic",
+      "Cozy",
+      "Artsy"
+    ],
     "rating": 4.6,
     "price": 2,
-    "image": "/images/cafe1.jpg",
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=800",
     "description": "Tucked inside the iconic Champa Gali lane, this specialty coffee roaster serves single-origin brews in a dreamy, fairy-light-lit courtyard. Perfect for book lovers and photographers.",
     "timings": "10:00 AM – 10:00 PM",
     "mapLink": "https://maps.google.com/?q=Blue+Tokai+Champa+Gali",
@@ -43,11 +58,18 @@
     "category": "Coding Spots",
     "location": "Noida",
     "area": "Sector 1",
-    "interests": ["Tech", "Coworking"],
-    "vibe": ["Productive", "Modern", "Networking"],
+    "interests": [
+      "Tech",
+      "Coworking"
+    ],
+    "vibe": [
+      "Productive",
+      "Modern",
+      "Networking"
+    ],
     "rating": 4.3,
     "price": 2,
-    "image": "/images/cowork1.jpg",
+    "image": "https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?q=80&w=800",
     "description": "Premium coworking space with high-speed WiFi, standing desks, and unlimited coffee. Great for solo coding sessions or team sprints. Day passes available.",
     "timings": "8:00 AM – 10:00 PM",
     "mapLink": "https://maps.google.com/?q=91springboard+Noida",
@@ -62,11 +84,19 @@
     "category": "Weekend Plans",
     "location": "Delhi",
     "area": "Lodhi Colony",
-    "interests": ["Art", "Photography", "Fitness"],
-    "vibe": ["Colorful", "Artsy", "Instagram-worthy"],
+    "interests": [
+      "Art",
+      "Photography",
+      "Fitness"
+    ],
+    "vibe": [
+      "Colorful",
+      "Artsy",
+      "Instagram-worthy"
+    ],
     "rating": 4.8,
     "price": 0,
-    "image": "/images/weekend1.jpg",
+    "image": "https://images.unsplash.com/photo-1621508654686-809f23efdaba?q=80&w=800",
     "description": "India's first open-air public art district featuring stunning murals by international artists. Start your morning with a walk and end at a nearby café. Guided tours available on weekends.",
     "timings": "Open 24/7 (best: 7 AM – 10 AM)",
     "mapLink": "https://maps.google.com/?q=Lodhi+Art+District",
@@ -81,11 +111,19 @@
     "category": "Cafes",
     "location": "Noida",
     "area": "Sector 18",
-    "interests": ["Cafes", "Music", "Food"],
-    "vibe": ["Lively", "Chill", "Instagrammable"],
+    "interests": [
+      "Cafes",
+      "Music",
+      "Food"
+    ],
+    "vibe": [
+      "Lively",
+      "Chill",
+      "Instagrammable"
+    ],
     "rating": 4.2,
     "price": 2,
-    "image": "/images/cafe2.jpg",
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=800",
     "description": "Quirky café with board games, live acoustic sets on weekends, and a menu that fuses Indian street food with global flavors. Try the Butter Chicken Pizza!",
     "timings": "11:00 AM – 11:00 PM",
     "mapLink": "https://maps.google.com/?q=Flipside+Cafe+Noida",
@@ -100,11 +138,18 @@
     "category": "Meetups",
     "location": "Delhi",
     "area": "Hauz Khas Village",
-    "interests": ["Tech", "Coworking"],
-    "vibe": ["Geeky", "Learning", "Community"],
+    "interests": [
+      "Tech",
+      "Coworking"
+    ],
+    "vibe": [
+      "Geeky",
+      "Learning",
+      "Community"
+    ],
     "rating": 4.5,
     "price": 0,
-    "image": "/images/meetup2.jpg",
+    "image": "https://images.unsplash.com/photo-1591115765373-520b7a2d7a59?q=80&w=800",
     "description": "Monthly React.js meetup with talks from industry experts, hands-on workshops, and pizza. Whether you're a beginner or pro, there's something for everyone.",
     "timings": "Last Saturday of month, 3:00 PM – 6:00 PM",
     "mapLink": "https://maps.google.com/?q=Hauz+Khas+Village",
@@ -119,11 +164,19 @@
     "category": "Weekend Plans",
     "location": "Delhi",
     "area": "Safdarjung Enclave",
-    "interests": ["Music", "Nightlife", "Food"],
-    "vibe": ["Soulful", "Premium", "Date Night"],
+    "interests": [
+      "Music",
+      "Nightlife",
+      "Food"
+    ],
+    "vibe": [
+      "Soulful",
+      "Premium",
+      "Date Night"
+    ],
     "rating": 4.7,
     "price": 3,
-    "image": "/images/weekend2.jpg",
+    "image": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=80&w=800",
     "description": "Delhi's finest jazz club with live performances every night. Craft cocktails, dim lighting, and world-class musicians create an unforgettable evening. Reservations recommended.",
     "timings": "7:00 PM – 1:00 AM",
     "mapLink": "https://maps.google.com/?q=Piano+Man+Jazz+Club",
@@ -138,11 +191,18 @@
     "category": "Coding Spots",
     "location": "Delhi",
     "area": "Connaught Place",
-    "interests": ["Tech", "Coworking"],
-    "vibe": ["Modern", "Productive", "Startup Vibes"],
+    "interests": [
+      "Tech",
+      "Coworking"
+    ],
+    "vibe": [
+      "Modern",
+      "Productive",
+      "Startup Vibes"
+    ],
     "rating": 4.4,
     "price": 2,
-    "image": "/images/cowork2.jpg",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=800",
     "description": "Sleek coworking space in the heart of CP. Ergonomic chairs, meeting rooms, and a community of founders. The rooftop café is a bonus!",
     "timings": "9:00 AM – 9:00 PM",
     "mapLink": "https://maps.google.com/?q=Innov8+CP+Delhi",
@@ -157,11 +217,19 @@
     "category": "Cafes",
     "location": "Delhi",
     "area": "Majnu ka Tilla",
-    "interests": ["Cafes", "Books", "Photography"],
-    "vibe": ["Bohemian", "Cozy", "Backpacker"],
+    "interests": [
+      "Cafes",
+      "Books",
+      "Photography"
+    ],
+    "vibe": [
+      "Bohemian",
+      "Cozy",
+      "Backpacker"
+    ],
     "rating": 4.3,
     "price": 1,
-    "image": "/images/cafe3.jpg",
+    "image": "https://images.unsplash.com/photo-1445116572660-236099ec97a0?q=80&w=800",
     "description": "A Tibetan-inspired café in the heart of Majnu ka Tilla. Momos, thukpa, and strong coffee in a rustic setting covered in travel stickers and fairy lights.",
     "timings": "9:00 AM – 9:30 PM",
     "mapLink": "https://maps.google.com/?q=AMA+Cafe+Majnu+ka+Tilla",
@@ -176,11 +244,18 @@
     "category": "Meetups",
     "location": "Noida",
     "area": "Sector 62",
-    "interests": ["Tech", "Coworking"],
-    "vibe": ["Networking", "Inspiring", "Professional"],
+    "interests": [
+      "Tech",
+      "Coworking"
+    ],
+    "vibe": [
+      "Networking",
+      "Inspiring",
+      "Professional"
+    ],
     "rating": 4.1,
     "price": 0,
-    "image": "/images/meetup3.jpg",
+    "image": "https://images.unsplash.com/photo-1528605248644-14dd04cb11c1?q=80&w=800",
     "description": "Monthly fireside chats with successful founders and VCs from the NCR ecosystem. Great for networking and finding co-founders.",
     "timings": "2nd Saturday, 4:00 PM – 7:00 PM",
     "mapLink": "https://maps.google.com/?q=Sector+62+Noida",
@@ -195,17 +270,25 @@
     "category": "Cafes",
     "location": "Delhi",
     "area": "Hauz Khas Village",
-    "interests": ["Cafes", "Nightlife", "Music", "Coworking"],
-    "vibe": ["Trendy", "Lively", "Work + Play"],
+    "interests": [
+      "Cafes",
+      "Nightlife",
+      "Music",
+      "Coworking"
+    ],
+    "vibe": [
+      "Trendy",
+      "Lively",
+      "Work + Play"
+    ],
     "rating": 4.0,
     "price": 2,
-    "image": "/images/cafe4.jpg",
+    "image": "https://images.unsplash.com/photo-1485686531772-11996769027f?q=80&w=800",
     "description": "Part co-working, part café, part bar — Social is where Delhi's young crowd converges. Free WiFi during the day, DJ nights after dark.",
     "timings": "12:00 PM – 1:00 AM",
     "mapLink": "https://maps.google.com/?q=Social+Hauz+Khas",
     "isOpen": true,
     "trending": true,
-    "hiddenGem": false,
     "weekendSpecial": false
   },
   {
@@ -214,11 +297,19 @@
     "category": "Weekend Plans",
     "location": "Delhi",
     "area": "Nizamuddin",
-    "interests": ["Fitness", "Photography", "Art"],
-    "vibe": ["Serene", "Green", "Heritage"],
+    "interests": [
+      "Fitness",
+      "Photography",
+      "Art"
+    ],
+    "vibe": [
+      "Serene",
+      "Green",
+      "Heritage"
+    ],
     "rating": 4.6,
     "price": 1,
-    "image": "/images/weekend3.jpg",
+    "image": "https://images.unsplash.com/photo-1595928642581-f50f4f3453a5?q=80&w=800",
     "description": "A beautifully restored Mughal-era garden with walking trails, heritage monuments, and lush greenery. Perfect for morning jogs, photography, or a peaceful picnic.",
     "timings": "7:00 AM – 5:00 PM",
     "mapLink": "https://maps.google.com/?q=Sunder+Nursery+Delhi",
@@ -233,11 +324,18 @@
     "category": "Coding Spots",
     "location": "Noida",
     "area": "Sector 16",
-    "interests": ["Tech", "Coworking"],
-    "vibe": ["Quiet", "Productive", "Budget-friendly"],
+    "interests": [
+      "Tech",
+      "Coworking"
+    ],
+    "vibe": [
+      "Quiet",
+      "Productive",
+      "Budget-friendly"
+    ],
     "rating": 4.0,
     "price": 1,
-    "image": "/images/cowork3.jpg",
+    "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=800",
     "description": "No-frills coworking for developers who just need fast internet, power outlets, and zero distractions. Hourly rates available. Bring your own headphones!",
     "timings": "7:00 AM – 11:00 PM",
     "mapLink": "https://maps.google.com/?q=Sector+16+Noida",
@@ -252,11 +350,19 @@
     "category": "Cafes",
     "location": "Delhi",
     "area": "Hauz Khas Village",
-    "interests": ["Cafes", "Books", "Photography"],
-    "vibe": ["Intellectual", "Cozy", "Travelers"],
+    "interests": [
+      "Cafes",
+      "Books",
+      "Photography"
+    ],
+    "vibe": [
+      "Intellectual",
+      "Cozy",
+      "Travelers"
+    ],
     "rating": 4.4,
     "price": 1,
-    "image": "/images/cafe5.jpg",
+    "image": "https://images.unsplash.com/photo-1517646331032-9e8563c520a1?q=80&w=800",
     "description": "A pay-what-you-like café filled with travel books and photography. Regular talks by travelers and photographers. The chai is legendary.",
     "timings": "11:00 AM – 7:30 PM",
     "mapLink": "https://maps.google.com/?q=Kunzum+Travel+Cafe",
@@ -271,11 +377,19 @@
     "category": "Weekend Plans",
     "location": "Noida",
     "area": "Gardens Galleria",
-    "interests": ["Food", "Music", "Nightlife"],
-    "vibe": ["Festive", "Family", "Street Food"],
+    "interests": [
+      "Food",
+      "Music",
+      "Nightlife"
+    ],
+    "vibe": [
+      "Festive",
+      "Family",
+      "Street Food"
+    ],
     "rating": 4.2,
     "price": 1,
-    "image": "/images/weekend4.jpg",
+    "image": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?q=80&w=800",
     "description": "Weekend flea market with live bands, street food stalls, and artisan shops. The vibe is electric — fairy lights, food trucks, and good energy all around.",
     "timings": "Sat & Sun, 5:00 PM – 11:00 PM",
     "mapLink": "https://maps.google.com/?q=Gardens+Galleria+Noida",
@@ -290,11 +404,19 @@
     "category": "Cafes",
     "location": "Noida",
     "area": "Sector 18",
-    "interests": ["Art", "Cafes", "Books"],
-    "vibe": ["Creative", "Quiet", "Artsy"],
+    "interests": [
+      "Art",
+      "Cafes",
+      "Books"
+    ],
+    "vibe": [
+      "Creative",
+      "Quiet",
+      "Artsy"
+    ],
     "rating": 4.1,
     "price": 2,
-    "image": "/images/cafe6.jpg",
+    "image": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?q=80&w=800",
     "description": "Art supplies on every table — sketch while you sip. Monthly art jams, open mic poetry, and the best waffles in Noida. A creative's paradise.",
     "timings": "10:00 AM – 9:00 PM",
     "mapLink": "https://maps.google.com/?q=Sector+18+Noida",
@@ -309,11 +431,17 @@
     "category": "Meetups",
     "location": "Noida",
     "area": "Sector 50",
-    "interests": ["Fitness"],
-    "vibe": ["Energetic", "Community", "Outdoor"],
+    "interests": [
+      "Fitness"
+    ],
+    "vibe": [
+      "Energetic",
+      "Community",
+      "Outdoor"
+    ],
     "rating": 4.3,
     "price": 1,
-    "image": "/images/meetup4.jpg",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800",
     "description": "Free community bootcamp every Sunday morning. HIIT, yoga, and calisthenics in the park. All fitness levels welcome. Show up and sweat!",
     "timings": "Sunday, 6:30 AM – 8:00 AM",
     "mapLink": "https://maps.google.com/?q=Sector+50+Noida",
@@ -328,11 +456,19 @@
     "category": "Cafes",
     "location": "Delhi",
     "area": "Dhan Mill Compound",
-    "interests": ["Cafes", "Photography", "Food"],
-    "vibe": ["Minimalist", "Premium", "Aesthetic"],
+    "interests": [
+      "Cafes",
+      "Photography",
+      "Food"
+    ],
+    "vibe": [
+      "Minimalist",
+      "Premium",
+      "Aesthetic"
+    ],
     "rating": 4.5,
     "price": 3,
-    "image": "/images/cafe7.jpg",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=800",
     "description": "Minimalist Japanese-inspired café in the trendy Dhan Mill compound. Matcha lattes, avocado toasts, and the most Instagrammable interiors in Delhi.",
     "timings": "9:00 AM – 8:00 PM",
     "mapLink": "https://maps.google.com/?q=Cafe+Dori+Dhan+Mill",
@@ -347,11 +483,20 @@
     "category": "Coding Spots",
     "location": "Delhi",
     "area": "Lodhi Road",
-    "interests": ["Tech", "Art", "Books", "Coworking"],
-    "vibe": ["Intellectual", "Quiet", "Cultural"],
+    "interests": [
+      "Tech",
+      "Art",
+      "Books",
+      "Coworking"
+    ],
+    "vibe": [
+      "Intellectual",
+      "Quiet",
+      "Cultural"
+    ],
     "rating": 4.5,
     "price": 1,
-    "image": "/images/cowork4.jpg",
+    "image": "https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?q=80&w=800",
     "description": "Cultural complex with a quiet library, art galleries, and cafeterias. Grab a membership and use it as your personal coding den. Film screenings and talks are a bonus.",
     "timings": "9:00 AM – 9:00 PM",
     "mapLink": "https://maps.google.com/?q=India+Habitat+Centre",
@@ -366,11 +511,19 @@
     "category": "Weekend Plans",
     "location": "Delhi",
     "area": "INA",
-    "interests": ["Food", "Art", "Photography"],
-    "vibe": ["Cultural", "Vibrant", "Family"],
+    "interests": [
+      "Food",
+      "Art",
+      "Photography"
+    ],
+    "vibe": [
+      "Cultural",
+      "Vibrant",
+      "Family"
+    ],
     "rating": 4.4,
     "price": 1,
-    "image": "/images/weekend5.jpg",
+    "image": "https://images.unsplash.com/photo-1528605248644-14dd04cb11c1?q=80&w=800",
     "description": "Open-air craft bazaar and food court representing every Indian state. Handloom, handicrafts, and regional cuisines — a weekend cultural immersion.",
     "timings": "10:30 AM – 9:00 PM",
     "mapLink": "https://maps.google.com/?q=Dilli+Haat+INA",
@@ -385,11 +538,19 @@
     "category": "Meetups",
     "location": "Delhi",
     "area": "Chandni Chowk",
-    "interests": ["Photography", "Art", "Food"],
-    "vibe": ["Heritage", "Adventurous", "Street Life"],
+    "interests": [
+      "Photography",
+      "Art",
+      "Food"
+    ],
+    "vibe": [
+      "Heritage",
+      "Adventurous",
+      "Street Life"
+    ],
     "rating": 4.6,
     "price": 1,
-    "image": "/images/meetup5.jpg",
+    "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=800",
     "description": "Guided heritage photography walk through the narrow lanes of Old Delhi. Capture Jama Masjid, spice markets, and street food stalls. Cameras and phones welcome!",
     "timings": "Saturday, 7:00 AM – 10:00 AM",
     "mapLink": "https://maps.google.com/?q=Chandni+Chowk+Delhi",
@@ -404,11 +565,19 @@
     "category": "Coding Spots",
     "location": "Noida",
     "area": "Sector 18",
-    "interests": ["Cafes", "Tech", "Coworking"],
-    "vibe": ["Modern", "Caffeinated", "Chill"],
+    "interests": [
+      "Cafes",
+      "Tech",
+      "Coworking"
+    ],
+    "vibe": [
+      "Modern",
+      "Caffeinated",
+      "Chill"
+    ],
     "rating": 4.2,
     "price": 2,
-    "image": "/images/cowork5.jpg",
+    "image": "https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?q=80&w=800",
     "description": "Specialty coffee chain with fast WiFi, plenty of outlets, and a laptop-friendly atmosphere. The cold brew is fuel for any coding marathon.",
     "timings": "8:00 AM – 11:00 PM",
     "mapLink": "https://maps.google.com/?q=Third+Wave+Coffee+Noida",
@@ -423,11 +592,19 @@
     "category": "Weekend Plans",
     "location": "Delhi",
     "area": "Baba Kharak Singh Marg",
-    "interests": ["Music", "Art", "Nightlife"],
-    "vibe": ["Creative", "Soulful", "Community"],
+    "interests": [
+      "Music",
+      "Art",
+      "Nightlife"
+    ],
+    "vibe": [
+      "Creative",
+      "Soulful",
+      "Community"
+    ],
     "rating": 4.3,
     "price": 1,
-    "image": "/images/weekend6.jpg",
+    "image": "https://images.unsplash.com/photo-1528605248644-14dd04cb11c1?q=80&w=800",
     "description": "Weekly open mic for poets, musicians, and comedians. Sign up to perform or just enjoy the show. The intimate theatre setting makes every act feel special.",
     "timings": "Friday, 7:30 PM – 10:00 PM",
     "mapLink": "https://maps.google.com/?q=Akshara+Theatre+Delhi",
@@ -442,11 +619,19 @@
     "category": "Cafes",
     "location": "Delhi",
     "area": "Anand Lok",
-    "interests": ["Cafes", "Food", "Photography"],
-    "vibe": ["Garden", "Brunch Spot", "Lively"],
+    "interests": [
+      "Cafes",
+      "Food",
+      "Photography"
+    ],
+    "vibe": [
+      "Garden",
+      "Brunch Spot",
+      "Lively"
+    ],
     "rating": 4.4,
     "price": 2,
-    "image": "/images/cafe8.jpg",
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=800",
     "description": "Delhi's beloved garden café famous for its pastas and all-day breakfast. The outdoor seating under fairy lights is pure magic. Go early to beat the crowd!",
     "timings": "11:00 AM – 11:00 PM",
     "mapLink": "https://maps.google.com/?q=Diggin+Anand+Lok",
@@ -461,11 +646,18 @@
     "category": "Coding Spots",
     "location": "Noida",
     "area": "Sector 63",
-    "interests": ["Tech", "Coworking"],
-    "vibe": ["Affordable", "No-frills", "Developer-friendly"],
+    "interests": [
+      "Tech",
+      "Coworking"
+    ],
+    "vibe": [
+      "Affordable",
+      "No-frills",
+      "Developer-friendly"
+    ],
     "rating": 3.9,
     "price": 1,
-    "image": "/images/cowork6.jpg",
+    "image": "https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?q=80&w=800",
     "description": "Budget coworking with 24/7 access, printer, and meeting rooms. Popular with freelance developers and remote workers. Monthly plans from ₹3,000.",
     "timings": "Open 24/7",
     "mapLink": "https://maps.google.com/?q=Sector+63+Noida",
@@ -480,11 +672,18 @@
     "category": "Weekend Plans",
     "location": "Delhi",
     "area": "Nehru Place",
-    "interests": ["Tech", "Photography"],
-    "vibe": ["Chaotic", "Treasure Hunt", "Techy"],
+    "interests": [
+      "Tech",
+      "Photography"
+    ],
+    "vibe": [
+      "Chaotic",
+      "Treasure Hunt",
+      "Techy"
+    ],
     "rating": 3.8,
     "price": 1,
-    "image": "/images/weekend7.jpg",
+    "image": "https://images.unsplash.com/photo-1528605248644-14dd04cb11c1?q=80&w=800",
     "description": "Asia's largest IT market — find rare gadgets, custom-built PCs, and the best deals on tech. Navigate the maze of shops for an adventure. Bargaining is an art here.",
     "timings": "10:00 AM – 7:00 PM (Closed Sunday)",
     "mapLink": "https://maps.google.com/?q=Nehru+Place+Delhi",
@@ -499,11 +698,18 @@
     "category": "Meetups",
     "location": "Delhi",
     "area": "Khan Market",
-    "interests": ["Books", "Cafes"],
-    "vibe": ["Intellectual", "Cozy", "Discussion"],
+    "interests": [
+      "Books",
+      "Cafes"
+    ],
+    "vibe": [
+      "Intellectual",
+      "Cozy",
+      "Discussion"
+    ],
     "rating": 4.2,
     "price": 0,
-    "image": "/images/meetup6.jpg",
+    "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=800",
     "description": "Monthly book club at Bahrisons Booksellers. Pick up the book of the month, discuss over chai, and discover your next favorite read. All genres welcome.",
     "timings": "1st Sunday, 4:00 PM – 6:00 PM",
     "mapLink": "https://maps.google.com/?q=Khan+Market+Delhi",
@@ -518,11 +724,18 @@
     "category": "Meetups",
     "location": "Delhi",
     "area": "Hauz Khas Village",
-    "interests": ["Music", "Nightlife"],
-    "vibe": ["Reggae", "Lively", "Jam Session"],
+    "interests": [
+      "Music",
+      "Nightlife"
+    ],
+    "vibe": [
+      "Reggae",
+      "Lively",
+      "Jam Session"
+    ],
     "rating": 4.1,
     "price": 1,
-    "image": "/images/meetup7.jpg",
+    "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=800",
     "description": "Open jam sessions every Wednesday. Bring your guitar, djembe, or just your voice. The rooftop view of Hauz Khas lake adds to the magic.",
     "timings": "Wednesday, 8:00 PM – 11:00 PM",
     "mapLink": "https://maps.google.com/?q=Raasta+Hauz+Khas",
@@ -537,11 +750,19 @@
     "category": "Weekend Plans",
     "location": "Noida",
     "area": "Sector 38A",
-    "interests": ["Fitness", "Food", "Music"],
-    "vibe": ["Fun", "Family", "Thrilling"],
+    "interests": [
+      "Fitness",
+      "Food",
+      "Music"
+    ],
+    "vibe": [
+      "Fun",
+      "Family",
+      "Thrilling"
+    ],
     "rating": 3.7,
     "price": 2,
-    "image": "/images/weekend8.jpg",
+    "image": "https://images.unsplash.com/photo-1528605248644-14dd04cb11c1?q=80&w=800",
     "description": "Amusement park with roller coasters, water rides, and food courts. Not the fanciest, but the nostalgia factor is real. Great for a chill weekend with friends.",
     "timings": "11:00 AM – 8:00 PM",
     "mapLink": "https://maps.google.com/?q=Worlds+of+Wonder+Noida",
@@ -556,11 +777,19 @@
     "category": "Cafes",
     "location": "Delhi",
     "area": "Khan Market",
-    "interests": ["Cafes", "Food", "Books"],
-    "vibe": ["Sophisticated", "Premium", "European"],
+    "interests": [
+      "Cafes",
+      "Food",
+      "Books"
+    ],
+    "vibe": [
+      "Sophisticated",
+      "Premium",
+      "European"
+    ],
     "rating": 4.5,
     "price": 3,
-    "image": "/images/cafe9.jpg",
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=800",
     "description": "Three-story European-style café with floor-to-ceiling windows. Morning coffee transitions to evening wine. The terrace overlooking Khan Market is exceptional.",
     "timings": "9:00 AM – 12:00 AM",
     "mapLink": "https://maps.google.com/?q=Perch+Khan+Market",
@@ -575,11 +804,18 @@
     "category": "Coding Spots",
     "location": "Delhi",
     "area": "Ashok Road",
-    "interests": ["Tech", "Coworking"],
-    "vibe": ["Corporate", "Premium", "Networking"],
+    "interests": [
+      "Tech",
+      "Coworking"
+    ],
+    "vibe": [
+      "Corporate",
+      "Premium",
+      "Networking"
+    ],
     "rating": 4.6,
     "price": 3,
-    "image": "/images/cowork7.jpg",
+    "image": "https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?q=80&w=800",
     "description": "Flagship WeWork space in the iconic Statesman House. Rooftop bar, wellness rooms, and an events calendar that reads like a startup conference.",
     "timings": "8:00 AM – 8:00 PM",
     "mapLink": "https://maps.google.com/?q=WeWork+Galaxy+Delhi",
@@ -594,11 +830,18 @@
     "category": "Meetups",
     "location": "Noida",
     "area": "Sector 95",
-    "interests": ["Fitness", "Photography"],
-    "vibe": ["Peaceful", "Spiritual", "Outdoor"],
+    "interests": [
+      "Fitness",
+      "Photography"
+    ],
+    "vibe": [
+      "Peaceful",
+      "Spiritual",
+      "Outdoor"
+    ],
     "rating": 4.4,
     "price": 0,
-    "image": "/images/meetup8.jpg",
+    "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=800",
     "description": "Free community yoga session at the riverside park every evening. Beautiful sunset views over the Yamuna. Mats provided, just bring yourself.",
     "timings": "Daily, 5:30 PM – 6:30 PM",
     "mapLink": "https://maps.google.com/?q=Buddha+Park+Noida",
@@ -613,11 +856,19 @@
     "category": "Weekend Plans",
     "location": "Delhi",
     "area": "Select Citywalk",
-    "interests": ["Food", "Art", "Music"],
-    "vibe": ["Cultural", "Festive", "Experiential"],
+    "interests": [
+      "Food",
+      "Art",
+      "Music"
+    ],
+    "vibe": [
+      "Cultural",
+      "Festive",
+      "Experiential"
+    ],
     "rating": 4.3,
     "price": 2,
-    "image": "/images/weekend9.jpg",
+    "image": "https://images.unsplash.com/photo-1528605248644-14dd04cb11c1?q=80&w=800",
     "description": "Pop-up Northeastern food and culture festival. Smoked meats, rice beer, bamboo crafts, and live folk music. A window into India's most vibrant cultures.",
     "timings": "Weekend Only, 12 PM – 9 PM",
     "mapLink": "https://maps.google.com/?q=Select+Citywalk+Delhi",
@@ -632,11 +883,19 @@
     "category": "Cafes",
     "location": "Delhi",
     "area": "Pragati Maidan",
-    "interests": ["Food", "Cafes", "Art"],
-    "vibe": ["Heritage", "Wholesome", "Indian-Modern"],
+    "interests": [
+      "Food",
+      "Cafes",
+      "Art"
+    ],
+    "vibe": [
+      "Heritage",
+      "Wholesome",
+      "Indian-Modern"
+    ],
     "rating": 4.6,
     "price": 2,
-    "image": "/images/cafe10.jpg",
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=800",
     "description": "Inside the Crafts Museum, serving modern Indian cuisine with traditional recipes. The Ragda Pattice and Filter Coffee are iconic. A must-visit for foodies.",
     "timings": "10:00 AM – 8:00 PM",
     "mapLink": "https://maps.google.com/?q=Cafe+Lota+Delhi",
@@ -651,11 +910,17 @@
     "category": "Meetups",
     "location": "Noida",
     "area": "Noida Expressway",
-    "interests": ["Fitness"],
-    "vibe": ["Energetic", "Community", "Sunrise"],
+    "interests": [
+      "Fitness"
+    ],
+    "vibe": [
+      "Energetic",
+      "Community",
+      "Sunrise"
+    ],
     "rating": 4.3,
     "price": 0,
-    "image": "/images/meetup9.jpg",
+    "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=800",
     "description": "Early morning group rides every Sunday along the Expressway. Routes from 15km to 50km. All you need is a cycle and the will to pedal!",
     "timings": "Sunday, 5:30 AM – 8:00 AM",
     "mapLink": "https://maps.google.com/?q=Noida+Expressway",
@@ -670,11 +935,19 @@
     "category": "Cafes",
     "location": "Delhi",
     "area": "Mehrauli",
-    "interests": ["Food", "Music", "Nightlife"],
-    "vibe": ["Industrial", "Live Music", "Brewery"],
+    "interests": [
+      "Food",
+      "Music",
+      "Nightlife"
+    ],
+    "vibe": [
+      "Industrial",
+      "Live Music",
+      "Brewery"
+    ],
     "rating": 4.3,
     "price": 3,
-    "image": "/images/cafe11.jpg",
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=800",
     "description": "Industrial-chic gastropub with its own microbrewery. Live bands on weekends, craft beers on tap, and a BBQ spread that's worth the drive to Mehrauli.",
     "timings": "12:00 PM – 1:00 AM",
     "mapLink": "https://maps.google.com/?q=Depot48+Mehrauli",
@@ -689,11 +962,19 @@
     "category": "Coding Spots",
     "location": "Delhi",
     "area": "Mehrauli",
-    "interests": ["Tech", "Coworking", "Food"],
-    "vibe": ["Elite", "Premium", "Exclusive"],
+    "interests": [
+      "Tech",
+      "Coworking",
+      "Food"
+    ],
+    "vibe": [
+      "Elite",
+      "Premium",
+      "Exclusive"
+    ],
     "rating": 4.7,
     "price": 3,
-    "image": "/images/cowork8.jpg",
+    "image": "https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?q=80&w=800",
     "description": "Members-only workspace and social club. Library, swimming pool, and gourmet dining. Code in luxury while networking with Delhi's business elite. Guest passes available.",
     "timings": "7:00 AM – 11:00 PM",
     "mapLink": "https://maps.google.com/?q=Quorum+Club+Delhi",
@@ -708,11 +989,19 @@
     "category": "Weekend Plans",
     "location": "Delhi",
     "area": "Saket",
-    "interests": ["Art", "Photography", "Cafes"],
-    "vibe": ["Bohemian", "Instagram-worthy", "Artsy"],
+    "interests": [
+      "Art",
+      "Photography",
+      "Cafes"
+    ],
+    "vibe": [
+      "Bohemian",
+      "Instagram-worthy",
+      "Artsy"
+    ],
     "rating": 4.5,
     "price": 1,
-    "image": "/images/weekend10.jpg",
+    "image": "https://images.unsplash.com/photo-1528605248644-14dd04cb11c1?q=80&w=800",
     "description": "A hidden lane of indie studios, art galleries, and coffee shops. String lights, potted plants, and creativity at every corner. Best visited at dusk.",
     "timings": "11:00 AM – 10:00 PM",
     "mapLink": "https://maps.google.com/?q=Champa+Gali+Delhi",
@@ -727,11 +1016,19 @@
     "category": "Cafes",
     "location": "Noida",
     "area": "Gardens Galleria",
-    "interests": ["Food", "Music", "Nightlife"],
-    "vibe": ["Eclectic", "Date Night", "Artsy"],
+    "interests": [
+      "Food",
+      "Music",
+      "Nightlife"
+    ],
+    "vibe": [
+      "Eclectic",
+      "Date Night",
+      "Artsy"
+    ],
     "rating": 4.1,
     "price": 2,
-    "image": "/images/cafe12.jpg",
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=800",
     "description": "Whimsical décor with mismatched furniture and walls covered in art. Mediterranean and North Indian fusion, great cocktails, and live Sufi music on weekends.",
     "timings": "12:00 PM – 12:00 AM",
     "mapLink": "https://maps.google.com/?q=Imperfecto+Noida",
@@ -746,11 +1043,19 @@
     "category": "Weekend Plans",
     "location": "Noida",
     "area": "Brahmaputra Market",
-    "interests": ["Art", "Food", "Music"],
-    "vibe": ["Indie", "Creative", "Community"],
+    "interests": [
+      "Art",
+      "Food",
+      "Music"
+    ],
+    "vibe": [
+      "Indie",
+      "Creative",
+      "Community"
+    ],
     "rating": 4.0,
     "price": 1,
-    "image": "/images/weekend11.jpg",
+    "image": "https://images.unsplash.com/photo-1528605248644-14dd04cb11c1?q=80&w=800",
     "description": "Monthly art market with local artists, printmakers, and illustrators. Live painting, DIY workshops, and the best chai in Noida. Support local creativities!",
     "timings": "Last Sunday, 10:00 AM – 5:00 PM",
     "mapLink": "https://maps.google.com/?q=Brahmaputra+Market+Noida",
@@ -765,11 +1070,18 @@
     "category": "Meetups",
     "location": "Noida",
     "area": "Sector 18",
-    "interests": ["Nightlife", "Music"],
-    "vibe": ["Hilarious", "Lively", "Late Night"],
+    "interests": [
+      "Nightlife",
+      "Music"
+    ],
+    "vibe": [
+      "Hilarious",
+      "Lively",
+      "Late Night"
+    ],
     "rating": 4.4,
     "price": 2,
-    "image": "/images/meetup10.jpg",
+    "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=800",
     "description": "Weekly open mic standup at a local bar. Watch upcoming comedians test new material or sign up for your 5 minutes of fame. Punchlines and pitchers!",
     "timings": "Thursday, 8:30 PM – 10:30 PM",
     "mapLink": "https://maps.google.com/?q=Sector+18+Noida",
@@ -784,11 +1096,19 @@
     "category": "Coding Spots",
     "location": "Delhi",
     "area": "Connaught Place",
-    "interests": ["Cafes", "Tech", "Coworking"],
-    "vibe": ["Premium", "Iconic", "Caffeinated"],
+    "interests": [
+      "Cafes",
+      "Tech",
+      "Coworking"
+    ],
+    "vibe": [
+      "Premium",
+      "Iconic",
+      "Caffeinated"
+    ],
     "rating": 4.1,
     "price": 3,
-    "image": "/images/cowork9.jpg",
+    "image": "https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?q=80&w=800",
     "description": "The flagship Starbucks with a massive seating area, reliable WiFi, and that aspirational coder aesthetic. Not the cheapest, but the environment is unbeatable.",
     "timings": "8:00 AM – 11:00 PM",
     "mapLink": "https://maps.google.com/?q=Starbucks+Reserve+CP",
