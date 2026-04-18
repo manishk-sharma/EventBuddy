@@ -38,7 +38,7 @@
   --shadow-glow: 0 0 30px rgba(245, 166, 35, 0.15);
 
   /* Spacing */
-  --nav-height: 72px;
+  --nav-height: 118px;
   --container-max: 1200px;
   --container-padding: 24px;
 
@@ -189,3 +189,4 @@ img {
   background: rgba(245, 166, 35, 0.3);
   color: var(--text-primary);
 }
+

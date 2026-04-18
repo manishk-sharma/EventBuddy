@@ -1,25 +1,35 @@
 "use client";
-import { useState, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { FavoritesProvider } from "./components/FavoritesContext";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import LocationToggle from "./components/LocationToggle";
-import InterestPills from "./components/InterestPills";
-import SearchBar from "./components/SearchBar";
 import SectionHeader from "./components/SectionHeader";
 import { PlaceGrid } from "./components/PlaceCard";
+import Footer from "./components/Footer";
 import placesData from "../data/places.json";
 
 function HomePage() {
   const [location, setLocation] = useState("Both");
-  const [interests, setInterests] = useState([]);
+  const [category, setCategory] = useState("all");
   const [search, setSearch] = useState("");
+  const [showLoginToast, setShowLoginToast] = useState(false);
 
-  const toggleInterest = (id) => {
-    setInterests((prev) =>
-      prev.includes(id) ? prev.filter((i) => i !== id) : [...prev, id]
-    );
-  };
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("login") !== "success") return;
+
+    setShowLoginToast(true);
+    params.delete("login");
+    const nextQuery = params.toString();
+    const nextUrl = `${window.location.pathname}${nextQuery ? `?${nextQuery}` : ""}${window.location.hash}`;
+    window.history.replaceState({}, "", nextUrl);
+
+    const timeout = setTimeout(() => {
+      setShowLoginToast(false);
+    }, 2800);
+
+    return () => clearTimeout(timeout);
+  }, []);
 
   // Filter by location
   const locationFiltered = useMemo(() => {
@@ -27,13 +37,13 @@ function HomePage() {
     return placesData.filter((p) => p.location === location);
   }, [location]);
 
-  // Combined Filter: Search & Interests
+  // Combined Filter: Search & Category
   const filteredMatches = useMemo(() => {
     let result = locationFiltered;
 
-    if (interests.length > 0) {
+    if (category !== "all") {
       result = result.filter((p) =>
-        p.interests.some((i) => interests.includes(i))
+        p.interests.includes(category)
       );
     }
 
@@ -50,10 +60,10 @@ function HomePage() {
     }
 
     // Sorting
-    if (interests.length > 0) {
+    if (category !== "all") {
       result = [...result].sort((a, b) => {
-        const aScore = a.interests.filter((i) => interests.includes(i)).length;
-        const bScore = b.interests.filter((i) => interests.includes(i)).length;
+        const aScore = a.interests.filter((i) => i === category).length;
+        const bScore = b.interests.filter((i) => i === category).length;
         return bScore - aScore || b.rating - a.rating;
       });
     } else {
@@ -61,10 +71,10 @@ function HomePage() {
     }
 
     return result;
-  }, [locationFiltered, search, interests]);
+  }, [locationFiltered, search, category]);
 
-  // Only calculate these if we are in default state (no search, no interests)
-  const isDefaultState = interests.length === 0 && !search.trim();
+  // Only calculate these if we are in default state (no search, no category filter)
+  const isDefaultState = category === "all" && !search.trim();
 
   const trending = useMemo(() => {
     if (!isDefaultState) return [];
@@ -85,12 +95,39 @@ function HomePage() {
 
   return (
     <>
-      <Navbar />
+      {showLoginToast && (
+        <div
+          role="status"
+          aria-live="polite"
+          style={{
+            position: "fixed",
+            top: 18,
+            right: 18,
+            zIndex: 1000,
+            background: "#0f766e",
+            color: "#ffffff",
+            padding: "12px 16px",
+            borderRadius: 12,
+            boxShadow: "0 14px 32px rgba(0, 0, 0, 0.2)",
+            fontWeight: 600,
+            letterSpacing: "0.1px",
+            animation: "fadeInOut 2.8s ease forwards",
+          }}
+        >
+          You are logged in successfully
+        </div>
+      )}
+
+      <Navbar
+        search={search}
+        onSearchChange={setSearch}
+        location={location}
+        onLocationChange={setLocation}
+        activeCategory={category}
+        onCategoryChange={setCategory}
+      />
       <main className="page-content">
         <Hero />
-        <LocationToggle value={location} onChange={setLocation} />
-        <InterestPills selected={interests} onToggle={toggleInterest} />
-        <SearchBar value={search} onChange={setSearch} />
 
         {isDefaultState ? (
           <>
@@ -134,11 +171,11 @@ function HomePage() {
             )}
           </>
         ) : (
-          /* Search or Vibe Match Results */
+          /* Category or Search Results */
           <section id="section-results" style={{ marginBottom: 8 }}>
             <SectionHeader
               icon="✨"
-              title={interests.length > 0 ? "Based on Your Vibe" : "Search Results"}
+              title={category !== "all" ? `${category} Spots` : "Search Results"}
               count={filteredMatches.length}
               bgColor="rgba(245, 166, 35, 0.12)"
             />
@@ -152,23 +189,8 @@ function HomePage() {
           </section>
         )}
 
-        {/* Footer */}
-        <footer
-          style={{
-            textAlign: "center",
-            padding: "40px 20px 32px",
-            color: "var(--text-muted)",
-            fontSize: "0.8rem",
-          }}
-        >
-          <p>
-            Made with ❤️ for Delhi & Noida explorers •{" "}
-            <span className="gradient-text" style={{ fontWeight: 600 }}>
-              EventBuddy
-            </span>
-          </p>
-        </footer>
       </main>
+      <Footer />
     </>
   );
 }

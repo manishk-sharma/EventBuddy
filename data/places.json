@@ -281,7 +281,7 @@
       "Lively",
       "Work + Play"
     ],
-    "rating": 4.0,
+    "rating": 4,
     "price": 2,
     "image": "https://images.unsplash.com/photo-1485686531772-11996769027f?q=80&w=800",
     "description": "Part co-working, part café, part bar — Social is where Delhi's young crowd converges. Free WiFi during the day, DJ nights after dark.",
@@ -333,7 +333,7 @@
       "Productive",
       "Budget-friendly"
     ],
-    "rating": 4.0,
+    "rating": 4,
     "price": 1,
     "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=800",
     "description": "No-frills coworking for developers who just need fast internet, power outlets, and zero distractions. Hourly rates available. Bring your own headphones!",
@@ -1053,7 +1053,7 @@
       "Creative",
       "Community"
     ],
-    "rating": 4.0,
+    "rating": 4,
     "price": 1,
     "image": "https://images.unsplash.com/photo-1528605248644-14dd04cb11c1?q=80&w=800",
     "description": "Monthly art market with local artists, printmakers, and illustrators. Live painting, DIY workshops, and the best chai in Noida. Support local creativities!",

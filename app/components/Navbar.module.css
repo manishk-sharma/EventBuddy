@@ -1,29 +1,28 @@
+/* ===== Two-Row District-Style Navbar ===== */
 .nav {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: var(--nav-height);
   z-index: 100;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(10, 10, 15, 0.8);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  background: rgba(10, 10, 15, 0.92);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
   border-bottom: 1px solid var(--border-subtle);
-  transition: background var(--duration-normal) ease;
 }
 
-.navInner {
-  width: 100%;
+/* ---------- Row 1 ---------- */
+.topRow {
   max-width: var(--container-max);
+  margin: 0 auto;
   padding: 0 var(--container-padding);
+  height: 60px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 20px;
 }
 
+/* Logo */
 .logo {
   display: flex;
   align-items: center;
@@ -32,17 +31,18 @@
   font-weight: 700;
   font-size: 1.3rem;
   letter-spacing: -0.02em;
+  flex-shrink: 0;
+  text-decoration: none;
 }
 
 .logoIcon {
-  width: 36px;
-  height: 36px;
+  width: 34px;
+  height: 34px;
   border-radius: var(--radius-md);
   background: var(--gradient-primary);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
 }
 
 .logoText {
@@ -52,84 +52,344 @@
   background-clip: text;
 }
 
-.navLinks {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.navLink {
+/* Location Pill */
+.locationPill {
   display: flex;
   align-items: center;
   gap: 6px;
-  padding: 8px 16px;
+  padding: 6px 14px;
   border-radius: var(--radius-full);
-  font-size: 0.875rem;
+  border: 1px solid var(--border-medium);
+  background: var(--bg-glass);
+  cursor: pointer;
+  transition: all var(--duration-normal) var(--ease-out);
+  flex-shrink: 0;
+  position: relative;
+  margin-left: auto;
+}
+
+.locationPill:hover {
+  border-color: var(--accent-amber);
+  background: rgba(245, 166, 35, 0.08);
+}
+
+.locationPinIcon {
+  color: var(--accent-amber);
+  flex-shrink: 0;
+}
+
+.locationCity {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.locationRegion {
+  font-size: 0.75rem;
+  color: var(--accent-coral);
+  white-space: nowrap;
+}
+
+/* Location Dropdown */
+.locationDropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-md);
+  padding: 6px;
+  min-width: 160px;
+  box-shadow: var(--shadow-lg);
+  z-index: 200;
+  animation: dropIn 0.2s var(--ease-out);
+}
+
+.locationOption {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  transition: all var(--duration-fast);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.locationOption:hover {
+  background: var(--bg-glass-strong);
+  color: var(--text-primary);
+}
+
+.locationOptionActive {
+  color: var(--accent-amber);
+  background: rgba(245, 166, 35, 0.1);
+  font-weight: 600;
+}
+
+.locationOptionDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-amber);
+  opacity: 0;
+  transition: opacity var(--duration-fast);
+}
+
+.locationOptionActive .locationOptionDot {
+  opacity: 1;
+}
+
+@keyframes dropIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Divider */
+.divider {
+  width: 1px;
+  height: 28px;
+  background: var(--border-medium);
+  flex-shrink: 0;
+}
+
+/* Platform Links */
+.platformLinks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+  margin-left: 10px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.platformLinks::-webkit-scrollbar {
+  display: none;
+}
+
+.platformTitle {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent-amber);
+}
+
+.platformLink {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #8ba2ce; /* Matching the light blue shade from the image */
+  text-decoration: none;
+  transition: color var(--duration-fast);
+  white-space: nowrap;
+}
+
+.platformLink:hover {
+  color: var(--text-primary);
+}
+
+/* Right Actions */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.actionLink {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: var(--radius-full);
+  font-size: 0.84rem;
   font-weight: 500;
   color: var(--text-secondary);
   transition: all var(--duration-normal) var(--ease-out);
+  text-decoration: none;
   position: relative;
 }
 
-.navLink:hover {
+.actionLink:hover {
   color: var(--text-primary);
   background: var(--bg-glass);
 }
 
-.navLinkActive {
+.actionLinkActive {
   color: var(--text-primary);
   background: var(--bg-glass-strong);
 }
 
 .favBadge {
   position: absolute;
-  top: 2px;
-  right: 4px;
-  min-width: 18px;
-  height: 18px;
+  top: 1px;
+  right: 2px;
+  min-width: 16px;
+  height: 16px;
   border-radius: var(--radius-full);
   background: var(--accent-coral);
   color: white;
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 4px;
-  animation: pulse 2s ease infinite;
+  padding: 0 3px;
+  animation: badgePulse 2s ease infinite;
 }
 
-@media (max-width: 480px) {
-  .logo {
-    font-size: 1.1rem;
-  }
-  .navLink span {
-    display: none;
-  }
-}
-
-@keyframes pulse {
+@keyframes badgePulse {
   0%, 100% { opacity: 1; }
   50% { opacity: 0.6; }
 }
 
-.loginBtn {
-  background: var(--accent-violet) !important;
-  color: white !important;
-  padding: 8px 18px !important;
-  border-radius: var(--radius-full);
-  font-weight: 600;
+/* Profile / Login Button */
+.profileBtn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--gradient-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
   transition: all var(--duration-fast);
-  box-shadow: 0 4px 12px rgba(168, 85, 247, 0.2);
-  margin-left: 8px;
+  cursor: pointer;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
 }
 
-.loginBtn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(168, 85, 247, 0.3);
-  background: #9333ea !important;
+.profileBtn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 16px rgba(245, 166, 35, 0.3);
 }
 
-.loginBtn span {
+/* ---------- Row 2: Search ---------- */
+.searchRow {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-padding) 12px;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--bg-glass);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 0 16px;
+  height: 44px;
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+.searchBox:focus-within {
+  border-color: var(--accent-amber);
+  background: rgba(245, 166, 35, 0.05);
+  box-shadow: 0 0 0 3px rgba(245, 166, 35, 0.08);
+}
+
+.searchIcon {
+  color: var(--text-muted);
+  flex-shrink: 0;
+  transition: color var(--duration-fast);
+}
+
+.searchBox:focus-within .searchIcon {
+  color: var(--accent-amber);
+}
+
+.searchInput {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  font-family: inherit;
+}
+
+.searchInput::placeholder {
+  color: var(--text-muted);
+}
+
+.clearBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--bg-glass-strong);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--duration-fast);
+  border: none;
+  flex-shrink: 0;
+}
+
+.clearBtn:hover {
+  background: var(--accent-coral);
   color: white;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .platformLink {
+    font-size: 0.9rem;
+  }
+
+  .locationRegion {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .topRow {
+    gap: 10px;
+    height: 54px;
+  }
+
+  .logoText {
+    display: none;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .platformLinks {
+    gap: 12px;
+    margin-left: 4px;
+  }
+
+  .platformTitle {
+    display: none;
+  }
+
+  .platformLink {
+    font-size: 0.85rem;
+  }
+
+  .actionLink span {
+    display: none;
+  }
+
+  .searchRow {
+    padding: 0 12px 10px;
+  }
 }
